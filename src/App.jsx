@@ -71,7 +71,7 @@ function App()
 };
 export default App*/
 
-import Comptteur from "./components/Comptteur"
+/*import Comptteur from "./components/Comptteur"
 import Phrase from "./components/Phrase"
 function App()
 {
@@ -80,4 +80,33 @@ function App()
 )
 
 }
+*/
+/*import './App.css'
+import Compteur1 from "./components/Compteur1";
+function App()
+{
+  return (<div><Compteur1/></div>)
+};
+export default App*/
+
+import './App.css'
+
+
+/*import Paragraphe1 from "./components/Paragraphe1"
+function App()
+{
+  return (<div><Paragraphe1/></div>)
+};
+export default App*/
+/*import Utilisateur from './components/Utilisateur'
+function App()
+{
+  return (<div><Utilisateur/></div>)
+};
+export default App*/
+import Paragraphe2 from './components/Paragraphe2' 
+function App()
+{
+  return (<div><Paragraphe2/></div>)
+};
 export default App
