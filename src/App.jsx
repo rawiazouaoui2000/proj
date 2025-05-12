@@ -104,9 +104,56 @@ function App()
   return (<div><Utilisateur/></div>)
 };
 export default App*/
-import Paragraphe2 from './components/Paragraphe2' 
+/*import Paragraphe2 from './components/Paragraphe2' 
 function App()
 {
   return (<div><Paragraphe2/></div>)
 };
+export default App */
+
+/*import Message from './components/Props'
+function App()
+{
+  return (
+  <div>
+    <Message contenu="liste des produit"/>
+    <Message contenu="rawia"/></div>
+  )
+}
+export default App*/
+
+
+import Produit from './components/Produit'
+function App()
+{
+  const Style={
+    color:'red',
+    fontSize:'40'
+  }
+  return (
+  <div>
+    <Produit information={{nom:" sucre ", prix : 15.45}}nomstyle={Style}/>
+   </div>
+  )
+}
 export default App
+/*import Animals from './components/tableux'
+function App ()
+{ const animaux=["chien","chat","lapin"]
+
+  return (
+    <div>
+      <Animals items={animaux}/>
+    </div>
+  )
+}
+export default App*/ 
+/*import Bouton from './components/Fonction'
+function App (){ 
+return (
+<div><Bouton click={()=>alert("bien")}/> 
+
+ </div>
+ )
+}
+export default App*/
