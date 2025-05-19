@@ -123,7 +123,7 @@ function App()
 export default App*/
 
 
-import Produit from './components/Produit'
+/*import Produit from './components/Produit'
 function App()
 {
   const Style={
@@ -157,3 +157,15 @@ return (
  )
 }
 export default App*/
+import logo from './assets/rr.jpg'
+import Procss3 from './components/Procss3'
+function App(){
+  return(
+    <div>
+      <Procss3/>
+      <img scr={logo}alt='logo' className='image' width={300}/>
+      <img src='https://www.google.com/search?sca_esv=5d08914562322349&rlz=1C1GCEU_frDZ1161DZ1162&sxsrf=AHTn8zqeTeLDlTkO8trkkyOHo6MjZONIkg:1747565574892&q=image&udm=2&fbs=ABzOT_CWdhQLP1FcmU5B0fn3xuWpA-dk4wpBWOGsoR7DG5zJBkzPWUS0OtApxR2914vrjk7XZXfnfKsaRZouQANLhmphEhFjnPez7qSPLLQhF9yWQ8dLkm_Ol-IEnqfjnL8XQzNqW5K2zwAP7YQmVXybzcVPQD2SS54EiBIleKH1dL_NFNX7pL_3MtlOXMFpCKVX1B4vgVj5delEBaG0bxz4nQiXIEaA-Q&sa=X&ved=2ahUKEwjXtsCK7ayNAxXTcfEDHa-HEkAQtKgLegQIERAB&biw=1366&bih=607&dpr=1#vhid=HXLlNEpHoJATkM&vssid=mosaic'></img>
+    </div>
+  )
+}
+export default App
